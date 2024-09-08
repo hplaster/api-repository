@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Cambria, 'Times New Roman', serif;
+}
+
+body {
+    background-color: darkgray;
+}
+
+h1 {
+    text-align: center;
+    margin: 20px auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+.card {
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    border-radius: 6px;
+    margin: 20px;
+    gap: 20px;
+}
+
+.card div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card div .date-create {
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 5px 10px;
+    font-size: 0.9rem;
+}
+
+.card div .title {
+    display: flex;
+    align-items: center;
+    color: black;
+}
