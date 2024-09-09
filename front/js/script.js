@@ -32,6 +32,5 @@ getAPIgithub()
 
 function postRepositoryName(element) {
     let repository_name = element.textContent
-    //console.log(repository_name)
     sessionStorage.setItem("repository_name", repository_name);
 }
