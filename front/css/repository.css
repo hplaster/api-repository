@@ -1,0 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Cambria, 'Times New Roman', serif;
+}
+
+body {
+    background-color: darkgray;
+}
+
+h1 {
+    text-align: center;
+    margin: 20px auto;
+}
