@@ -13,3 +13,69 @@ h1 {
     text-align: center;
     margin: 20px auto;
 }
+
+h2 {
+    margin-left: 20px;
+}
+
+/* =================================================== */
+
+.commit-card {
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    border-radius: 6px;
+    margin: 20px;
+    gap: 10px;
+}
+
+.commit-card div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.commit-card div #author-commit {
+    display: flex;
+    text-decoration: none;
+}
+
+.commit-card div #author-commit img {
+    height: 120px;
+    width: 120px;
+}
+
+.commit-card div #author-commit .title-author {
+    display: block;
+    color: black;
+    padding-left: 10px;
+    padding-top: 5px;
+}
+
+.commit-card div .comments-commit {
+    display: block;
+}
+
+.commit-card div .comments-commit .datetime-commit {
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 5px 10px;
+    font-size: 0.9rem;
+    height: min-content;
+    font-weight: bold;
+}
+
+.commit-card div .comments-commit h3 {
+    margin: 0;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.commit-card div .comments-commit .comments-number {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 30px;
+    width: auto;
+}

@@ -13,7 +13,7 @@ function getAPIgithub() {
 
                 card.innerHTML = `
                     <div class="card">
-                        <div>
+                        <div id="link-title">
                             <a href="repository.html"><h4 class="title" onclick="postRepositoryName(this)">${item.name}</h4></a>
                             <span class="date-create">${ Intl.DateTimeFormat('pt-BR').format(new Date(item.created_at)) }</span>
                         </div>
